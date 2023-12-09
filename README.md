@@ -4,8 +4,8 @@ This repository contains scripts to help with some paperless workflows.
 ## Installation
 1. Clone this repository
 2. Create a virtual environment: `python -m venv venv`
-3. Install the requirements: `pip install -r requirements.txt`
-4. Activate the virtual environment: `source venv/bin/activate`
+3. Activate the virtual environment: `source venv/bin/activate`
+4. Install the requirements: `pip install -r requirements.txt`
 
 ## Usage
 ### Generate ASNs
