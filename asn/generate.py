@@ -32,9 +32,9 @@ def render(c,x,y):
     startASN = startASN + 1
     
     qr = QRCodeImage(barcode_value, size=y*0.9)
-    qr.drawOn(c,1*mm,y*0.05)
+    qr.drawOn(c, 1*mm, y * .05)
     c.setFont("Helvetica", 2.5*mm)
-    c.drawString(y, (y-2*mm)/2, barcode_value)
+    c.drawString(y, (y - 2*mm) / 2, barcode_value)
 
 
 if __name__ == "__main__":
