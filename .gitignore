@@ -6,3 +6,5 @@ venv/
 
 **.pdf
 **.json
+api/config.py
+api/config_documenttypes.py

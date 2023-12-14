@@ -1,0 +1,2 @@
+API_KEY = 'MYKEY'
+api_url = 'https://paperless.lan/api'

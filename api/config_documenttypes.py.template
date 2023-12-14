@@ -1,0 +1,48 @@
+# config-documenttypes.py
+# Fügen Sie zusätzliche Konfigurationsparameter hinzu, falls erforderlich
+# Zu löschende Attribute mit "remove": True kennzeichnen. (Attribute-Werte werden sicherheitshalber in einer CSV Datei gespeichert.)
+document_type_config = {
+    "Anderes": [
+        {"name": "fileeebox", "id": 5, "data_type": "string", "default": "", "remove": False},
+        {"name": "Kundennr", "id": 4, "data_type": "string", "default": "", "remove": False}
+    ],
+    "Angebot": [
+        {"name": "fileeebox", "id": 5, "data_type": "string", "default": "", "remove": False},
+        {"name": "Projekt", "id": 3, "data_type": "string", "default": "", "remove": False}
+    ],
+    "Gehaltsabrechnung": [
+        {"name": "fileeebox", "id": 5, "data_type": "string", "default": "", "remove": False},
+        {"name": "Betrag", "id": 1, "data_type": "float", "default": 0.00, "remove": False}
+    ],
+    "Information": [
+        {"name": "fileeebox", "id": 5, "data_type": "string", "default": "", "remove": False},
+        {"name": "Kundennr", "id": 4, "data_type": "string", "default": "", "remove": False}
+    ],
+    "Kassenzettel": [
+        {"name": "fileeebox", "id": 5, "data_type": "string", "default": "", "remove": False},
+        {"name": "Kundennr", "id": 4, "data_type": "string", "default": "", "remove": False},
+        {"name": "Betrag", "id": 1, "data_type": "float", "default": 0.00, "remove": False},
+        {"name": "Rechnungsnr", "id": 6, "data_type": "string", "default": "", "remove": False},
+        {"name": "IBAN", "id": 7, "data_type": "string", "default": "", "remove": False}
+    ],
+    "Rechnung": [
+        {"name": "fileeebox", "id": 5, "data_type": "string", "default": "", "remove": False},
+        {"name": "Kundennr", "id": 4, "data_type": "string", "default": "", "remove": False},
+        {"name": "Betrag", "id": 1, "data_type": "float", "default": 0.00, "remove": False},
+        {"name": "Rechnungsnr", "id": 6, "data_type": "string", "default": "", "remove": False},
+        {"name": "IBAN", "id": 7, "data_type": "string", "default": "", "remove": False}
+    ],
+    "Kontoauszug": [
+        {"name": "fileeebox", "id": 5, "data_type": "string", "default": "", "remove": False},
+        {"name": "Betrag", "id": 1, "data_type": "float", "default": 0.00, "remove": False},
+        {"name": "IBAN", "id": 7, "data_type": "string", "default": "", "remove": False}
+    ],
+    "Mitgliedsausweis": [
+        {"name": "fileeebox", "id": 5, "data_type": "string", "default": "", "remove": False},
+        {"name": "Kundennr", "id": 4, "data_type": "string", "default": "", "remove": False}
+    ],
+    "Vertrag": [
+        {"name": "fileeebox", "id": 5, "data_type": "string", "default": "", "remove": False},
+        {"name": "Vertragsnr", "id": 8, "data_type": "string", "default": "", "remove": False}
+    ]
+}
