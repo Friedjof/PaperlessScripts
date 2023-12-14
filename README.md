@@ -23,3 +23,7 @@ You can visit also the [Makefile](Makefile) for more information about the usage
 3. [Custom ASN script](https://gist.github.com/timrprobocom/3946aca8ab75df8267bbf892a427a1b7/)
 
 ### API - Scripts
+Manage paperless user defined fields for documenttypes
+1. configure config.py and config_documenttypes.py, use *.template if you want an example
+2. Initially use organize-doctype-fields to change all existing documents in your paperless instance
+3. Regulary use update-open-document-fields.py to update documents with tag "Offen" for defined type fields
