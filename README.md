@@ -2,9 +2,16 @@
 This repository contains scripts to help with some paperless workflows.
 
 ## Installation
+### Linux
 1. Clone this repository
 2. Create a virtual environment: `python -m venv venv`
 3. Activate the virtual environment: `source venv/bin/activate`
+4. Install the requirements: `pip install -r requirements.txt`
+
+### Windows
+1. Clone this repository
+2. Create a virtual environment: `python -m venv venv`
+3. Activate the virtual environment: `venv\Scripts\activate.bat` or `source venv\Scripts\activate`
 4. Install the requirements: `pip install -r requirements.txt`
 
 ## Usage

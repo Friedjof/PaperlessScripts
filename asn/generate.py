@@ -26,7 +26,7 @@ def write_config(config: dict) -> None:
         json.dump(config, f, indent=4)
 
 
-def render(c,x,y):
+def render(c, x, y):
     global startASN
     barcode_value = f"ASN{startASN:05d}"
     startASN = startASN + 1
